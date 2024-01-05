@@ -19,18 +19,32 @@ function divide(){
 function add( a,b){
     return a + b
 }
-add(number,numberTwo)
+// add(number,numberTwo)
 
-function subtract( a,b){
-    return b-a
+// function subtract( a,b){
+//     return b-a
+// }
+// subtract(number,numberTwo)
+
+// function multiply( a, b){
+//     return  a*b}
+//     multiply(number,numberTwo)
+
+//     function divide( a,b){
+//         return b/a
+//     }
+//     divide(number,numberTwo)
+function increment(n){
+    return n+=1
 }
-subtract(number,numberTwo)
+function decrement(n){
+    return n -=1
+}
+function makeInt(n){
+    return n
+}
 
-function multiply( a, b){
-    return  a*b}
-    multiply(number,numberTwo)
 
-    function divide( a,b){
-        return b/a
-    }
-    divide(number,numberTwo)
+
+
+
